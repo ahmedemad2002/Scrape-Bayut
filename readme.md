@@ -15,23 +15,24 @@ This project aims to scrape data about apartments for rent in Egypt from bayut p
 - [File Descriptions](#file-descriptions)
 - [Results](#results)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
 This project aims to scrape data about apartments for rent in Egypt from bayut page of [Residential Properties for rent in Egypt](https://www.bayut.eg/en/egypt/properties-for-rent/?rent_frequency=any&gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_lRWVDi4h180vpcPoYjpw3noFLpp2pKjA1Kr1C5YDJ5oWeknb9kaRwaAtjnEALw_wcB) to use this data to analyze it and see the trends in this data.
+
 **Scrapy** is the main tool used in this project.
 
 ## File Descriptions
 
 -bayut: The main file which contains the Scrapy project files like the settings file and the spiders directory.
+
 -data: The directory containing the scraped data and data sample.
 
 ## Results
 
 Scraped about 4400 property succesfully in the **Full_data.json** file.
-created a data sample file to make the output format available without downloading the full data.
+
+Created a data sample file to make the output format available without downloading the full data.
 
 ## Usage
 
@@ -44,8 +45,8 @@ git clone https://github.com/ahmedemad2002/Scrape-Bayut.git
 # Navigate to the project folder
 cd Scrape-Bayut
 
-# Install dependencies (if any)
-pip install -r requirements.txt
+# Install scrapy
+pip install scrapy
 
 # Run the code
 python main.py
