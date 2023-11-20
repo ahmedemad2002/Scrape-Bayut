@@ -30,9 +30,9 @@ This project aims to scrape data about apartments for rent in Egypt from bayut p
 
 ## Results
 
-Scraped about 4400 property succesfully in the **Full_data.json** file.
+Scraped about 4400 property succesfully in the [**Full_data.json**](https://github.com/ahmedemad2002/Scrape-Bayut/blob/main/data/Full_data.json).
 
-Created a data sample file to make the output format available without downloading the full data.
+Created a [data sample](https://github.com/ahmedemad2002/Scrape-Bayut/blob/main/data/data%20sample.json) to make the output format available without downloading the full data.
 
 ## Usage
 
